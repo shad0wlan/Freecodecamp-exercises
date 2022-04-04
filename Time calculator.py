@@ -95,6 +95,7 @@ def add_time(start, duration, day=None):
     #
             # day_string = f', {day_string} ({days_counter} days later)'
             # new_time += day_string
+
     return new_time.rstrip()
 
 
